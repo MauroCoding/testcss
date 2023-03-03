@@ -1,0 +1,15 @@
+.container {
+    position: relative;
+    width: 88%;
+    height: 400px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+}
+
+.item {
+    width: 200px;
+    height: 200px;
+}

@@ -1,0 +1,10 @@
+@import url("sizes.css");
+@import url("colors.css");
+
+.container {
+    background-color: var(--container-color, var(--container-color-fallback, rgb(218, 192, 178)));
+}
+
+.item {
+    background-color: var(--item-color, var(--item-color-fallback, rgb(215, 240, 240)));
+}
